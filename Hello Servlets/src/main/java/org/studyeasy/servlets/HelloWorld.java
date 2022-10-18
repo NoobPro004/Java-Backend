@@ -26,7 +26,7 @@ public class HelloWorld extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().println("<h1>Hello World</h1>");
+		response.getWriter().println("<h2>Hello wor</h2>");
 	}
 
 }
