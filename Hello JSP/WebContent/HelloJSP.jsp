@@ -18,5 +18,21 @@
 <%= new java.util.Date() %>
 <br />
 <%= 25*4 %>
+<br />
+<%
+int x = 13;
+out.println(x);
+x=99;
+%>
+<br />
+<%= x %>
+
+<%
+for(int i=0;i<=10;i++){
+	out.print("<br />");
+	out.print(i);
+}
+
+%>
 </body>
 </html>
