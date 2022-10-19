@@ -34,11 +34,11 @@ for(int i=0;i<=10;i++){
 }
 
 %>
-</br>
+<br />
 <%!
 
 String message(){
-	return "i Love JSP";
+	 return "i Love JSP"; 
 }
 %>
 <%= message() %>
