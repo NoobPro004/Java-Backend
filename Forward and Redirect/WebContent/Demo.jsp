@@ -13,6 +13,6 @@ response.sendRedirect("Redirect.jsp");
 //request.getRequestDispatcher("Forwared.jsp").forward(request,response);
 %>
 
-
+<!--  <jsp:forward page="forward.jsp" /> -->
 </body>
 </html>
