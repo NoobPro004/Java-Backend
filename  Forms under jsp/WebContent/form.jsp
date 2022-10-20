@@ -7,7 +7,7 @@
 <title>Form Demo</title>
 </head>
 <body>
-<form action="submit.jsp" method="post">
+<form action="<%=request.getContextPath()%>/Controller" method="post">
 Full Name: <input type="text" name="name" /><br/>
 Gender: <input type="radio" name="gender" value="male"/>Male
 <input type="radio" name="gender" value="female"/>Female<br/>
